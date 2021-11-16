@@ -10,5 +10,3 @@ elif number == 0:
 
 else:
    print("{} is negative\n".format(number))
-
-	
