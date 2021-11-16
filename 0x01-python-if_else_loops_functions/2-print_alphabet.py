@@ -3,4 +3,4 @@
 #Not followed by a new line
 
 for lowercasealphabets in range(97,123):
-    print(chr(lowercasealphabets), end ="".format(lowercasealphabets))
+    print(chr(lowercasealphabets), end = "".format(lowercasealphabets))
