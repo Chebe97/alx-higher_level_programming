@@ -3,4 +3,4 @@
 #In decimal and hexadecimal
 
 for number in range(0, 99):
-    print(number, "=", hex(number))
+    print(number, "=", hex(number).format(number))
