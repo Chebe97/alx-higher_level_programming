@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+#A program that prints all possible different combinations of two digits
+#Two digits must be different
+#Print only the smallest combination of two digits
+for digit in range(0, 100):
+    print(digit, end=", ")
