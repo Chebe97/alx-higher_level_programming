@@ -1,0 +1,24 @@
+#output based on age
+#1 - 18 -> Important
+#21, 50, >65 -> Important
+#All others -> Not Important
+
+#Receive age and store in age
+
+age = eval(input("Enter age: "))
+
+#if age is equal to or greater than 1 and less than or equal to 18
+if (age >= 1) and (age <= 18):
+   print("Important Birthaday")
+
+#if age is either 21 or 50 important
+elif (age == 21) or (age == 50):
+     print("Important Birthday")
+
+#if age is less than 65 convert true to false and vice varsa
+elif not(age < 65):
+     print("Important Birthday")
+
+#Else Not important
+else:
+	print("Not Important Birthday")
