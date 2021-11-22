@@ -6,13 +6,9 @@ if __name__ == "__main__":
 
     b = 5
 
-    #addition
     print("{:d} + {:d} = {:d}".format(a, b, add(a,b)))
-    #subraction
     print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
-    #multiplication
     print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-    #division
     print("{:d} / {:d} = {:d}".format(a,b, div(a,b)))
 
 
